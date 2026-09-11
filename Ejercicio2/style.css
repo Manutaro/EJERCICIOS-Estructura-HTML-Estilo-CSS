@@ -1,0 +1,29 @@
+/**CSS obligatorio:
+- Fuente personalizada
+- Interlineado
+- Colores para títulos
+- centrado*/
+
+
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: darkblue;
+}
+
+p {
+    color: black;
+}
+
+ul {
+    text-align: left;
+    display: inline-block;
+}

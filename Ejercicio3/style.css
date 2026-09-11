@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    background-color: lightgray;
+}
+
+.tarjeta {
+    background-color: white;
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+img {
+    width: 100px;
+    margin: 20px;
+}
+
+h1 {
+    color: #0A66C2;
+}
+
+h2 {
+    color: #0A66C2;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    text-align: left;
+    display: inline-block;
+}
+
+a {
+    color: #0A66C2;
+}
