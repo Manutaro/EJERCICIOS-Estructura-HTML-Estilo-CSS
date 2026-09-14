@@ -1,0 +1,54 @@
+/*- Aplica CSS básico
+- Mejora la legibilidad
+- Usa colores, fuente y separación visual*/
+
+
+body {
+    background-color: #49abcf;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+/* Texto mal escrito */
+
+.texto-mal {
+    background-color: #f11111;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.texto-mal h2 {
+    color: #11499d;
+}
+
+/* Texto corregido */
+
+.texto-correcto {
+    background-color: rgb(54, 243, 11);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Títulos */
+
+h1 {
+    color: #fbfdfe;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #00090e;
+    margin-top: 25px;
+}
+
+/* Párrafos */
+
+p {
+    color: #200101;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+

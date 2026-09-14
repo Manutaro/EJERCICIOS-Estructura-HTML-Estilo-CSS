@@ -1,0 +1,45 @@
+/*CSS obligatorio:
+- Fondo claro
+- Espaciado correcto*/
+
+
+
+
+body {
+    background-color: #9a7828;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+.receta {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #e00d0d;
+}
+
+h2 {
+    color: #e5690a;
+    margin-top: 30px;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+ul, ol {
+    line-height: 1.8;
+    padding-left: 30px;
+}
+
