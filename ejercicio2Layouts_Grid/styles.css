@@ -1,0 +1,51 @@
+
+/* EJERCICIO A */
+
+.ejecicioa {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+}
+
+.numerosa {
+    height: 100px;
+    border: 3px solid black;
+    display: grid;
+    place-items: center;
+}
+
+
+/* EJERCICIO B */
+
+.ejeciciob {
+    background-color: chocolate;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+.numerosb {
+    height: 100px;
+    border: 3px solid black;
+    display: grid;
+    place-items: center;
+}
+
+
+/* EJERCICIO C */
+
+.ejecicioc {
+    background-color: darkred;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+}
+
+.numerosc {
+    height: 100px;
+    border: 3px solid black;
+    display: grid;
+    place-items: center;
+}
+

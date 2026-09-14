@@ -1,0 +1,83 @@
+.container{
+    background-color: chartreuse;
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr //fraccion del espacio disponible*/
+    /* grid-template-columns: repeat(4, 1fr); // Repite 1fr cuatro veces. */
+    grid-template-columns: 200px 200px; /* Deffinir nuestras colmnas*/
+    grid-template-rows: 100px 150px;/* deffine filas*/
+    gap: 20px 20px; /*espacios entre elementos*/
+}
+
+.item{
+    background-color: chocolate;
+    border: 3px solid black;
+    margin: 5px;
+
+
+}
+
+.galeria{
+    background-color:blue;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: stretch;
+
+
+}
+
+.foto{
+    background-color: aliceblue;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.grande{
+    /* grid-column: 1 / 3 //Empieza en la línea 1 y termina en la línea 3.*/
+    grid-column: span 2; /* Expandir*/
+    grid-row: span 2;
+}
+
+.pagina{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    
+    grid-template-areas: 
+    "header header"
+    "menu contenido"
+    "footer footer";
+}
+
+header{
+    grid-area: header; /*asignamos el area header*/
+
+}
+
+aside{
+    grid-area: menu;
+}
+
+main{
+    grid-area: contenido;
+
+}
+
+footer{
+    grid-area: footer;
+}
+
+.items{
+    border: 5px solid black;
+}
+
+.galerias{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+
+.fotos{
+    border: 2px solid teal;
+}

@@ -1,0 +1,35 @@
+/*Ejercicio 1 — Mi primera Grid
+Objetivo
+Crear una cuadrícula de 6 elementos.
+
+┌──────┬──────┬──────┐
+│  1   │  2   │  3   │
+├──────┼──────┼──────┤
+│  4   │  5   │  6   │
+└──────┴──────┴──────┘
+Requisitos
+Utilizar:
+
+display: grid;
+grid-template-columns;
+gap;
+Restricción
+No utilizar Flexbox.*/
+
+
+.contenedor{
+    background-color: chartreuse;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    
+}
+
+.item{
+    background-color: brown;
+    display: grid;
+    height: 200px;
+    border: 3px solid black;
+    place-items: center;
+
+}

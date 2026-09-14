@@ -1,0 +1,16 @@
+.contenedor {
+    background-color: chartreuse;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.cards {
+    border: 5px solid rgb(60, 25, 202);
+    padding: 30px;
+    text-align: center;
+}
+
+.destacada {
+    grid-column: span 2;
+}

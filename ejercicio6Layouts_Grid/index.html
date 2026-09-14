@@ -1,0 +1,69 @@
+<!--Ejercicio 6 — Responsive
+Parten del ejercicio anterior.
+
+Ahora deben hacer que cuando la pantalla sea pequeña:
+
+┌──────────────────┐
+│      HEADER      │
+├──────────────────┤
+│       MENU       │
+├──────────────────┤
+│     CONTENT      │
+├──────────────────┤
+│      FOOTER      │
+└──────────────────┘
+Aquí pueden utilizar:
+
+@media
+y modificar:
+
+grid-template-areas
+Por ejemplo:
+
+@media (max-width: 600px) {
+
+    .pagina {
+        grid-template-columns: 1fr;
+
+        grid-template-areas:
+            "header"
+            "menu"
+            "contenido"
+            "footer";
+    }
+}-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./styles.css">
+    <title>Ejercicio6 - Responsive</title>
+</head>
+<body>
+
+    <div class="pagina">
+
+        <header class="header">
+            HEADER
+        </header>
+
+        <nav class="menu">
+            MENU
+        </nav>
+
+        <main class="content">
+            CONTENT
+        </main>
+
+        <footer class="footer">
+            FOOTER
+        </footer>
+
+    </div>
+
+
+    
+</body>
+</html>
