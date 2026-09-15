@@ -1,188 +1,171 @@
 # Ejercicios de HTML y CSS
 
-Repositorio que contiene una colección de ejercicios prácticos realizados para aprender y reforzar los fundamentos de **HTML y CSS** mediante la creación de diferentes páginas web.
+Repositorio que contiene una colección de ejercicios prácticos realizados para reforzar los conocimientos de **HTML5 y CSS3**, incluyendo estructura de páginas, estilos y maquetación utilizando **CSS Grid**.
 
-## Objetivo
+##  Contenido
 
-El objetivo de estos ejercicios es practicar la estructura de documentos HTML, el uso de estilos CSS y la organización visual de contenido en una página web.
+El repositorio está organizado en dos secciones principales:
 
-A través de los ejercicios se trabajan conceptos como:
-
-* Estructura básica de HTML
-* Etiquetas y elementos HTML
-* Listas ordenadas y desordenadas
-* Imágenes y enlaces
-* Uso de CSS
-* Colores y tipografías
-* Espaciado e interlineado
-* Diseño mediante tarjetas
-* Legibilidad y organización visual
-* Corrección de errores en código HTML
+* **Ejercicios HTML y CSS:** 5 ejercicios enfocados en la estructura y estilos de páginas web.
+* **Layouts Grid:** 6 ejercicios enfocados en la creación de diferentes diseños utilizando CSS Grid.
 
 ---
 
-## Ejercicios
+## Ejercicios HTML y CSS
 
-### 1. Tarjeta Personal
+Esta sección contiene cinco ejercicios prácticos para trabajar los fundamentos de HTML y CSS.
 
-Creación de una tarjeta personal utilizando HTML y CSS.
+### Ejercicio 1
 
-**Incluye:**
-
-* Nombre
-* Profesión
-* Breve descripción
-* Imagen
-
-**CSS aplicado:**
-
-* Fondo de tarjeta
-* Organización básica del contenido
-
-**Archivos principales:**
+Contiene una página HTML junto con su archivo de estilos CSS correspondiente.
 
 ```text
-index.html
-styles.css
+Ejercicio1/
+├── ejercicio1.html
+└── style.css
 ```
 
----
+### Ejercicio 2
 
-### 2. Biografía con Estilo
+Ejercicio enfocado en la construcción de una página utilizando HTML y CSS.
 
-Creación de una página web dedicada a una biografía, utilizando diferentes elementos HTML para organizar la información.
+```text
+Ejercicio2/
+├── ejercicio2.html
+└── style.css
+```
 
-**Incluye:**
+### Ejercicio 3
 
-* Título principal
-* Subtítulos
-* Párrafos
-* Lista de datos importantes
+Ejercicio práctico para reforzar la estructura HTML y la aplicación de estilos mediante CSS.
 
-**CSS aplicado:**
+```text
+Ejercicio3/
+├── ejercicio3.html
+└── style.css
+```
 
-* Fuente personalizada
-* Interlineado
-* Colores para títulos
-* Contenido centrado
+### Ejercicio 4
 
----
+Ejercicio de maquetación y estilos utilizando HTML y CSS.
 
-### 3. Página de una App Famosa
+```text
+Ejercicio4/
+├── ejercicio4.html
+└── style.css
+```
 
-Creación de una página informativa sobre una aplicación conocida.
+### Ejercicio 5
 
-**Incluye:**
+Último ejercicio de la sección principal de HTML y CSS.
 
-* Nombre de la aplicación
-* Imagen
-* Fecha de lanzamiento
-* Empresa desarrolladora
-* Descripción
-* Lista de tecnologías
-* Enlace oficial
+```text
+Ejercicio5/
+├── ejercio5.html
+└── styles.css
+```
 
-**CSS aplicado:**
 
-* Diseño tipo tarjeta
-* Separación visual entre elementos
-* Organización del contenido
-
----
-
-### 4. Receta Estilizada
-
-Creación de una página web para presentar una receta de cocina.
-
-**Incluye:**
-
-* Título de la receta
-* Imagen del platillo
-* Lista de ingredientes
-* Lista ordenada de pasos
-
-**CSS aplicado:**
-
-* Fondo claro
-* Espaciado entre elementos
-* Organización y legibilidad del contenido
 
 ---
 
-### 5. Corrección y Mejora de HTML
+# Layouts_Grid
 
-Ejercicio enfocado en identificar y corregir errores dentro de un documento HTML.
+La carpeta `Layouts_Grid` contiene **seis ejercicios** dedicados a la práctica de **CSS Grid Layout**.
 
-El código proporcionado contiene errores intencionales en etiquetas, estructura y orden de los elementos.
+CSS Grid permite organizar elementos HTML mediante filas y columnas, facilitando la creación de diferentes estructuras y diseños para páginas web.
 
-**Trabajo realizado:**
+```text
+Layouts_Grid/
+│
+├── ejercicio1Layouts_Grid/
+│   ├── index.html
+│   └── styles.css
+│
+├── ejercicio2Layouts_Grid/
+│   ├── index.html
+│   └── styles.css
+│
+├── ejercicio3Layouts_Grid/
+│   ├── index.html
+│   └── styles.css
+│
+├── ejercicio4Layouts_Grid/
+│   ├── index.html
+│   └── styles.css
+│
+├── ejercicio5Layouts_Grid/
+│   ├── index.html
+│   └── styles.css
+│
+└── ejercicio6Layouts_Grid/
+    ├── index.html
+    └── styles.css
+```
 
-* Corrección de etiquetas HTML
-* Organización de la estructura del documento
-* Mejora de la legibilidad
-* Aplicación de CSS básico
-* Uso de colores
-* Uso de fuentes
-* Separación visual del contenido
+## Conceptos practicados con CSS Grid
 
-Este ejercicio permite comprender la importancia de mantener una estructura HTML correcta y prestar atención a los detalles del código.
+Los ejercicios de esta sección permiten practicar conceptos fundamentales como:
+
+* `display: grid`
+* Creación de filas y columnas.
+* `grid-template-columns`
+* `grid-template-rows`
+* `gap`
+* `grid-column`
+* `grid-row`
+* Distribución y posicionamiento de elementos.
+* Creación de diferentes layouts mediante CSS Grid.
 
 ---
 
 ## Tecnologías utilizadas
 
-* **HTML5** — Estructura y contenido de las páginas.
-* **CSS** — Diseño, estilos y presentación visual.
+| Tecnología   | Uso                                           |
+| ------------ | --------------------------------------------- |
+| **HTML5**    | Estructura y contenido de las páginas web     |
+| **CSS3**     | Diseño y estilos                              |
+| **CSS Grid** | Creación de layouts mediante filas y columnas |
+| **Git**      | Control de versiones                          |
+| **GitHub**   | Almacenamiento y publicación del proyecto     |
 
 ---
 
-## Estructura del proyecto
+## 📂 Estructura general del proyecto
 
 ```text
-/
-├── Ejercicio-1/
-│   ├── index.html
-│   └── styles.css
+EJERCICIOS-Estructura-HTML-Estilo-CSS/
 │
-├── Ejercicio-2/
-│   ├── index.html
-│   └── styles.css
+├── Ejercicio1/
+├── Ejercicio2/
+├── Ejercicio3/
+├── Ejercicio4/
+├── Ejercicio5/
 │
-├── Ejercicio-3/
-│   ├── index.html
-│   └── styles.css
-│
-├── Ejercicio-4/
-│   ├── index.html
-│   └── styles.css
-│
-├── Ejercicio-5/
-│   ├── index.html
-│   └── styles.css
+├── Layouts_Grid/
+│   ├── ejercicio1Layouts_Grid/
+│   ├── ejercicio2Layouts_Grid/
+│   ├── ejercicio3Layouts_Grid/
+│   ├── ejercicio4Layouts_Grid/
+│   ├── ejercicio5Layouts_Grid/
+│   └── ejercicio6Layouts_Grid/
 │
 └── README.md
 ```
 
-> La estructura de carpetas puede variar dependiendo de cómo se encuentren organizados los ejercicios dentro del repositorio.
+---
+
+## Objetivo
+
+El objetivo de este repositorio es practicar y reforzar los fundamentos del desarrollo web mediante la creación de diferentes ejercicios con **HTML y CSS**, avanzando posteriormente hacia la utilización de **CSS Grid** para construir layouts más organizados.
+
+Los ejercicios permiten desarrollar una mejor comprensión de la estructura HTML, la aplicación de estilos CSS y la organización de elementos dentro de una página web.
 
 ---
 
-## Aprendizajes
-
-Con estos ejercicios se busca desarrollar una base sólida en el desarrollo web, especialmente en:
-
-* Crear estructuras HTML correctamente.
-* Aplicar estilos mediante CSS.
-* Organizar información de forma clara.
-* Mejorar la presentación visual de una página.
-* Identificar y corregir errores de código.
-* Comprender la relación entre HTML y CSS.
-* Practicar la atención al detalle al escribir código.
-
-
----
 ## Autor
 
 **Manuel Rodríguez González**
 
-Proyecto realizado como parte del aprendizaje y práctica de desarrollo web en el Bootcamp de Generation México.
+Repositorio creado como parte de la práctica y aprendizaje de desarrollo web utilizando HTML y CSS.
+
